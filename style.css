@@ -3,26 +3,19 @@
     padding:0;
 }
 
-.logo{
-    width:300px;
-    height:125px;
-}
-
-.links_list{
-    margin-top: 40px;
-    margin-right: 50px;
+.logo_img{
+    font-size: 50px ;
 }
 
 .links_list li{
     display:inline;
     list-style-type: none;
-    padding:10px;
-
 }
 
 .links_list li a{
     color:black;
     text-decoration: none;
+    margin: 5px;
 }
 
 .links_list li a:hover{
@@ -32,7 +25,8 @@
 .header{
     display:flex;
     justify-content:space-between ;
-    padding:20px;
+    vertical-align: auto;
+    padding:5px;
     background-color: hotpink;
 }
 
@@ -43,7 +37,36 @@
     margin: 20px;
 }
 
+.contact_img{
+    width:35px;
+    height:35px;
+}
+
+.testimonials {
+    margin-top: 30px;
+}
+
+.testimonial {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.author {
+    font-style: italic;
+    font-size: 14px;
+    color: #777;
+}
+
 .footer{
     display:flex;
     justify-content: center;
+    background-color: hotpink;
 }
