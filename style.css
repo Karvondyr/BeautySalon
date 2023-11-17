@@ -118,6 +118,7 @@
 
 .form-group {
     margin-bottom: 20px;
+    display: inline;
 }
 
 .form-group label {
@@ -131,6 +132,19 @@
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
+}
+
+.form-group ul{
+    list-style-type: none;
+}
+
+.form-group ul li{
+    width: fit-content;
+    display: flex;
+}
+
+.form-group ul li input, label{
+    width: fit-content;
 }
 
 .submit-button {
@@ -226,4 +240,8 @@ th {
     .actions li {
         display: none;
     }
+}
+
+.error-message {
+    color: red;
 }
